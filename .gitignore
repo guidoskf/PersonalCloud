@@ -1,0 +1,40 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Application logs
+**/logs/
+*.log
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Terraform generated files and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+# Terraform execution plans (may contain sensitive values)
+*.tfplan
+*.plan

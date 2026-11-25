@@ -1,0 +1,16 @@
+---
+- Developer Resources:
+    - GitHub:
+        - abbr: GH
+          href: https://github.com/
+          description: Source code hosting and version control
+
+    - Docker Documentation:
+        - abbr: DK
+          href: https://docs.docker.com/
+          description: Official Docker documentation
+
+    - Homepage Documentation:
+        - abbr: HP
+          href: https://gethomepage.dev/
+          description: Official Homepage documentation

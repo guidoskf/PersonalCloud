@@ -1,0 +1,12 @@
+---
+- datetime:
+    text_size: xl
+    locale: en-GB
+    format:
+      dateStyle: full
+      timeStyle: short
+      hourCycle: h23
+
+- search:
+    provider: duckduckgo
+    target: _blank
